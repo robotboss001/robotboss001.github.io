@@ -1,0 +1,11 @@
+{
+    "name": "Draconium",
+    "colors": [
+        "c694f2",
+        "4e1684"
+    ],
+    "ingredient": {
+        "item": "draconicevolution:draconium_ingot"
+    },
+    "inUltimateSingularity": true
+}

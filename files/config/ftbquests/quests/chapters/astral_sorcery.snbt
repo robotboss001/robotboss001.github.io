@@ -1,0 +1,623 @@
+{
+	id: "00000000000002B4"
+	group: ""
+	order_index: 9
+	filename: "astral_sorcery"
+	title: "Astral Sorcery"
+	icon: "astralsorcery:starmetal_ingot"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -6.5d
+			description: ["The Lightwell is used to generate Liquid Starlight."]
+			dependencies: ["00000000000002C5"]
+			id: "00000000000002B5"
+			tasks: [{
+				id: "00000000000002B6"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+			rewards: [{
+				id: "58A865BED27E4B85"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 1
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			dependencies: ["00000000000002BF"]
+			id: "00000000000002B7"
+			tasks: [{
+				id: "00000000000002B8"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+			rewards: [{
+				id: "5DA8906136296337"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["00000000000002C1"]
+			id: "00000000000002B9"
+			tasks: [{
+				id: "00000000000002BA"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+			rewards: [{
+				id: "2A0A9F23CCBD61B3"
+				type: "item"
+				item: "astralsorcery:infused_wood_infused"
+				count: 64
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			dependencies: ["00000000000002C3"]
+			id: "00000000000002BB"
+			tasks: [{
+				id: "00000000000002BC"
+				type: "item"
+				item: "astralsorcery:ritual_pedestal"
+			}]
+			rewards: [{
+				id: "2527CCFA933A7487"
+				type: "item"
+				item: "astralsorcery:ritual_pedestal"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["00000000000002C3"]
+			id: "00000000000002BD"
+			tasks: [{
+				id: "00000000000002BE"
+				type: "item"
+				item: "astralsorcery:attunement_altar"
+			}]
+			rewards: [{
+				id: "79620F17EECC3B46"
+				type: "item"
+				item: "astralsorcery:spectral_relay"
+				count: 8
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["00000000000002C1"]
+			size: 2.0d
+			id: "00000000000002BF"
+			tasks: [{
+				id: "00000000000002C0"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+			rewards: [{
+				id: "02CE8AEDA0E122DC"
+				type: "item"
+				item: {
+					id: "astralsorcery:mantle"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["00000000000002C3"]
+			size: 2.0d
+			id: "00000000000002C1"
+			tasks: [{
+				id: "00000000000002C2"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+			rewards: [{
+				id: "7C9478DCBD76A802"
+				type: "item"
+				item: "astralsorcery:stardust"
+				count: 16
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["00000000000002C5"]
+			size: 2.0d
+			id: "00000000000002C3"
+			tasks: [{
+				id: "00000000000002C4"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+			rewards: [{
+				id: "1F3A156BCC05F5B1"
+				type: "item"
+				item: "astralsorcery:black_marble_raw"
+				count: 64
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			dependencies: ["00000000000002DF"]
+			size: 2.0d
+			id: "00000000000002C5"
+			tasks: [{
+				id: "00000000000002C6"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [{
+				id: "3814ACE06DBADA5F"
+				type: "item"
+				item: "astralsorcery:marble_raw"
+				count: 64
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["00000000000002D7"]
+			id: "00000000000002C7"
+			tasks: [{
+				id: "00000000000002C8"
+				type: "item"
+				item: "astralsorcery:infused_wood"
+			}]
+			rewards: [{
+				id: "7C4C98DF17E0F070"
+				type: "item"
+				item: "astralsorcery:infused_wood"
+				count: 32
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["00000000000002B9"]
+			id: "00000000000002C9"
+			tasks: [{
+				id: "00000000000002CA"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
+			}]
+			rewards: [{
+				id: "13BBCA35174C6B07"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
+				count: 4
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["00000000000002C1"]
+			id: "00000000000002CB"
+			tasks: [{
+				id: "00000000000002CC"
+				type: "item"
+				item: "astralsorcery:tree_beacon"
+			}]
+			rewards: [{
+				id: "5447C5DA3465B3BB"
+				type: "item"
+				item: "astralsorcery:grapple_wand"
+			}]
+		}
+		{
+			title: "Ritual Anchor"
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["00000000000002C1"]
+			id: "00000000000002CD"
+			tasks: [{
+				id: "00000000000002CE"
+				type: "item"
+				item: "astralsorcery:ritual_link"
+				count: 2L
+			}]
+			rewards: [{
+				id: "5004C28CF8F6D860"
+				type: "item"
+				item: "astralsorcery:ritual_link"
+				count: 2
+			}]
+		}
+		{
+			title: "Rock Crystal"
+			x: 0.5d
+			y: -5.5d
+			id: "00000000000002CF"
+			tasks: [{
+				id: "00000000000002D1"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:constellation.mineralis"
+										pLevel: 1
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:constellation.fornax"
+										pLevel: 2
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "31AF9A3B9998D06A"
+				type: "item"
+				item: "astralsorcery:rock_crystal_ore"
+				count: 8
+			}]
+		}
+		{
+			title: "Starmetal"
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["00000000000002DD"]
+			id: "00000000000002D2"
+			tasks: [
+				{
+					id: "00000000000002D3"
+					type: "item"
+					item: "astralsorcery:starmetal_ore"
+				}
+				{
+					id: "00000000000002D4"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+				}
+			]
+			rewards: [{
+				id: "1A9E8F067635AAC1"
+				type: "item"
+				item: "astralsorcery:starmetal"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			id: "00000000000002D5"
+			tasks: [{
+				id: "00000000000002D6"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+			}]
+			rewards: [{
+				id: "100F251F11354782"
+				type: "item"
+				item: "astralsorcery:aquamarine_sand_ore"
+				count: 8
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			dependencies: ["00000000000002B5"]
+			id: "00000000000002D7"
+			tasks: [{
+				id: "00000000000002D8"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+			rewards: [{
+				id: "4007B42DC2B9ADC5"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["00000000000002C3"]
+			id: "00000000000002D9"
+			tasks: [{
+				id: "00000000000002DA"
+				type: "item"
+				item: "astralsorcery:shifting_star"
+			}]
+			rewards: [{
+				id: "4ABDC8B58E5727D0"
+				type: "item"
+				item: "astralsorcery:shifting_star"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["00000000000002C1"]
+			id: "00000000000002DB"
+			tasks: [{
+				id: "00000000000002DC"
+				type: "item"
+				item: {
+					id: "astralsorcery:illumination_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "0E4B61F9D2A3FCB2"
+				type: "item"
+				item: "astralsorcery:shifting_star"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["00000000000002C3"]
+			id: "00000000000002DD"
+			tasks: [{
+				id: "00000000000002DE"
+				type: "item"
+				item: "astralsorcery:linking_tool"
+			}]
+			rewards: [{
+				id: "16A96EF0ACB0D8BB"
+				type: "item"
+				item: {
+					id: "astralsorcery:exchange_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			size: 2.0d
+			id: "00000000000002DF"
+			tasks: [{
+				id: "00000000000002E0"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+			rewards: [{
+				id: "1D7A9A97164E7612"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["00000000000002BF"]
+			id: "00000000000002E1"
+			tasks: [{
+				id: "00000000000002E2"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+			rewards: [{
+				id: "72AB1649C2619F6C"
+				type: "item"
+				item: "astralsorcery:refraction_table"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			dependencies: ["00000000000002C3"]
+			id: "00000000000002E3"
+			tasks: [{
+				id: "00000000000002E4"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+			rewards: [{
+				id: "681C4A670F6DEE44"
+				type: "item"
+				item: {
+					id: "astralsorcery:architect_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			dependencies: ["00000000000002C5"]
+			id: "00000000000002E5"
+			tasks: [{
+				id: "00000000000002E6"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+			rewards: [{
+				id: "6F5716639999832A"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			dependencies: ["00000000000002BF"]
+			id: "00000000000002E9"
+			tasks: [{
+				id: "00000000000002EA"
+				type: "item"
+				item: "astralsorcery:fountain_prime_vortex"
+			}]
+			rewards: [{
+				id: "76AB6F3A44EC40B5"
+				type: "item"
+				item: "astralsorcery:black_marble_raw"
+				count: 64
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			dependencies: ["00000000000002BF"]
+			id: "00000000000002EB"
+			tasks: [{
+				id: "00000000000002EC"
+				type: "item"
+				item: "astralsorcery:fountain_prime_liquid"
+			}]
+			rewards: [{
+				id: "79B5774438542C06"
+				type: "item"
+				item: "astralsorcery:marble_raw"
+				count: 64
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			dependencies: ["00000000000002BF"]
+			id: "00000000000002ED"
+			tasks: [{
+				id: "00000000000002EE"
+				type: "item"
+				item: "astralsorcery:fountain"
+			}]
+			rewards: [{
+				id: "6DE48C2D3B9E4D40"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_glass"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			dependencies: ["00000000000002C3"]
+			id: "00000000000002EF"
+			tasks: [{
+				id: "00000000000002F0"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_gateway"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B07EE59F5F9FE65"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_gateway"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["00000000000002B9"]
+			id: "000000000000059B"
+			tasks: [{
+				id: "000000000000059C"
+				type: "item"
+				item: "astralsorcery:glass_lens"
+			}]
+			rewards: [{
+				id: "3FF3F038527A1F26"
+				type: "item"
+				item: "astralsorcery:glass_lens"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["00000000000002C3"]
+			id: "5713FA83BFF5FF85"
+			tasks: [{
+				id: "0421400E3BF6D97C"
+				type: "item"
+				item: {
+					id: "astralsorcery:chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "41CDBA6D4AFE56E6"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+			}]
+		}
+	]
+}
